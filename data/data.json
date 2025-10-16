@@ -1,0 +1,82 @@
+[
+  {
+    "plat": "Poulet au curry",
+    "liste": ["Poulet", "Curry en poudre", "Lait de coco", "Riz", "Coriandre (facultatif)"]
+  },
+  {
+    "plat": "Lasagnes bolognese",
+    "liste": ["Lasagne", "Boeuf haché", "Purée de tomate", "Mozzarella", "Oignon", "Ail", "Beurre", "Maïzena", "Lait", "Thym", "Basilic"]
+  },
+  {
+    "plat": "Salade César",
+    "liste": ["Laitue romaine", "Poulet grillé", "Croûtons", "Parmesan", "Sauce César"]
+  },
+  {
+    "plat": "Tacos au bœuf",
+    "liste": ["Tortillas", "Boeuf haché", "Tomates", "Salade", "Cheddar", "Oignon rouge", "Sauce salsa"]
+  },
+  {
+    "plat": "Omelette aux champignons",
+    "liste": ["Œufs", "Champignons", "Crème", "Persil", "Sel", "Poivre"]
+  },
+  {
+    "plat": "Gratin dauphinois",
+    "liste": ["Pommes de terre", "Crème fraîche", "Lait", "Ail", "Beurre", "Noix de muscade"]
+  },
+  {
+    "plat": "Soupe de potiron",
+    "liste": ["Potiron", "Oignon", "Crème", "Bouillon de légumes", "Sel", "Poivre"]
+  },
+  {
+    "plat": "Curry de légumes",
+    "liste": ["Pommes de terre", "Pois chiches", "Carottes", "Curry", "Lait de coco", "Riz"]
+  },
+  {
+    "plat": "Burger maison",
+    "liste": ["Pain à burger", "Steak haché", "Salade", "Tomate", "Fromage", "Cornichons", "Sauce burger"]
+  },
+  {
+    "plat": "Riz cantonais",
+    "liste": ["Riz", "Œufs", "Petits pois", "Jambon", "Carottes", "Sauce soja"]
+  },
+  {
+    "plat": "Spaghetti carbonara",
+    "liste": ["Spaghetti", "Lardons", "Crème", "Parmesan", "Œuf", "Poivre"]
+  },
+  {
+    "plat": "Quiche lorraine",
+    "liste": ["Pâte brisée", "Lardons", "Crème", "Œufs", "Gruyère", "Poivre"]
+  },
+  {
+    "plat": "Couscous marocain",
+    "liste": ["Semoule", "Agneau", "Pois chiches", "Carottes", "Courgettes", "Épices à couscous"]
+  },
+  {
+    "plat": "Chili con carne",
+    "liste": ["Boeuf haché", "Haricots rouges", "Tomates", "Oignons", "Piments", "Maïs"]
+  },
+  {
+    "plat": "Pizza margherita",
+    "liste": ["Pâte à pizza", "Sauce tomate", "Mozzarella", "Basilic"]
+  },
+  {
+    "plat": "Tartiflette",
+    "liste": ["Pommes de terre", "Reblochon", "Lardons", "Oignons", "Crème"]
+  },
+  {
+    "plat": "Poulet rôti et légumes",
+    "liste": ["Poulet", "Pommes de terre", "Carottes", "Ail", "Thym", "Huile d’olive"]
+  },
+  {
+    "plat": "Wok de crevettes",
+    "liste": ["Crevettes", "Nouilles", "Poivrons", "Sauce soja", "Gingembre", "Ail"]
+  },
+  {
+    "plat": "Curry thaï rouge",
+    "liste": ["Poulet", "Pâte de curry rouge", "Lait de coco", "Basilic thaï", "Riz"]
+  },
+  {
+    "plat": "Crêpes sucrées",
+    "liste": ["Farine", "Œufs", "Lait", "Sucre", "Beurre", "Extrait de vanille"]
+  }
+]
