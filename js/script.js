@@ -5,6 +5,7 @@ async function init() {
 
     LunchMenuList(data)
     ListCourse(data)
+    closeApp()
 }
 
 init()
@@ -65,4 +66,14 @@ function ListCourse(data) {
         modalOverlay.appendChild(modalBox)
         document.body.appendChild(modalOverlay)
     })
+}
+
+function closeApp(){
+    const { ipcRenderer } = require("electron");
+
+    const btnClose = document.querySelector(".btn_close");
+
+    btnClose.addEventListener("click", () => {
+        ipcRenderer.send("close-app");
+    });
 }
