@@ -1,5 +1,4 @@
 const { app, BrowserWindow, ipcMain } = require("electron");
-const path = require("path");
 
 let win;
 
@@ -7,6 +6,10 @@ const createWindow = () => {
   win = new BrowserWindow({
     width: 600,
     height: 700,
+    maxHeight:700,
+    minHeight:700,
+    maxWidth:600,
+    minWidth:600,
     webPreferences: {
       nodeIntegration: true,   // autorise require() côté renderer
       contextIsolation: false  // pas de preload nécessaire

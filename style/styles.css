@@ -1,0 +1,182 @@
+:root {
+  --bg1: #e3f2fd;
+  --bg2: #f8fafc;
+  --card: rgba(255, 255, 255, 0.75);
+  --accent: #007aff;
+  --accent-dark: #0058cc;
+  --text-dark: #0f172a;
+  --muted: #64748b;
+  --radius: 14px;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --transition: 180ms cubic-bezier(0.25, 0.9, 0.4, 1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  font-family: "Inter", system-ui, sans-serif;
+  background: linear-gradient(160deg, var(--bg1), var(--bg2));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--text-dark);
+  padding: 16px;
+  overflow: hidden;
+}
+
+/*  header  */
+header {
+  width: 100%;
+  max-width: 560px;
+  background: var(--card);
+  backdrop-filter: blur(10px);
+  box-shadow: var(--shadow);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-size: 1.2rem;
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.btn_close {
+  background: transparent;
+  border: none;
+  color: var(--muted);
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn_close:hover {
+  color: var(--accent-dark);
+  background: rgba(0, 0, 0, 0.05);
+}
+
+/*  main  */
+main {
+  flex: 1;
+  width: 100%;
+  max-width: 560px;
+  overflow-y: auto;
+  margin: 10px 0;
+  padding-right: 4px;
+}
+
+.general {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/*  card day */
+.line {
+  background: var(--card);
+  backdrop-filter: blur(10px);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  transition: var(--transition);
+}
+
+.line:hover {
+  transform: scale(1.01);
+}
+
+.line h2 {
+  margin: 0 0 6px 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--accent-dark);
+}
+
+.text_plat {
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 8px;
+  padding: 6px 10px;
+  margin: 4px 0;
+  border: 1px dashed rgba(0, 0, 0, 0.08);
+  font-size: 0.9rem;
+  color: var(--muted);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.text_plat:hover {
+  background: rgba(0, 122, 255, 0.08);
+  color: var(--text-dark);
+}
+
+/* Style quand sélectionné*/
+.text_plat.selected {
+  background: linear-gradient(90deg, #007aff2a, #7dd3fc2a);
+  border: 1px solid rgba(0, 122, 255, 0.3);
+  color: var(--accent-dark);
+  font-weight: 600;
+}
+
+/*  footer  */
+footer {
+  width: 100%;
+  max-width: 560px;
+  display: flex;
+  gap: 10px;
+}
+
+footer button {
+  flex: 1;
+  border: none;
+  padding: 12px 0;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: var(--shadow);
+}
+
+/* Bouton principal */
+.btn_lunch {
+  background: linear-gradient(90deg, var(--accent), var(--accent-dark));
+  color: #fff;
+}
+
+.btn_lunch:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 122, 255, 0.3);
+}
+
+/* Bouton secondaire */
+.btn_list {
+  background: #fff;
+  color: var(--accent-dark);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.btn_list:hover {
+  background: rgba(0, 122, 255, 0.1);
+}
+
+/*  Scroll bar  */
+main::-webkit-scrollbar {
+  width: 6px;
+}
+main::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+}
